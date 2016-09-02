@@ -1,0 +1,19 @@
+{
+  "name": "react-attach-ref-compat",
+  "version": "0.0.1",
+  "description": "Monkey-patch React 0.13's ref behavior to match React 15's behavior",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/classdojo/react-attach-ref-compat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/classdojo/react-attach-ref-compat/issues"
+  },
+  "homepage": "https://github.com/classdojo/react-attach-ref-compat#readme"
+}
