@@ -12,10 +12,10 @@ ReactCompositeComponent.Mixin.attachRef = function(ref, component) {
   var element = component.getPublicInstance();
   if (element.tagName) {
     element = element.getDOMNode();
+
+    // consumers might not realize ref is a DOM element and call getDOMNode()
+    element.getDOMNode = function() { return element; }
   }
 
   refs[ref] = element;
-
-  // consumers might not realize ref is a DOM element and call getDOMNode()
-  element.getDOMNode = function() { return element; }
 };
