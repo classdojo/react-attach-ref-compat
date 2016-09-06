@@ -1,6 +1,6 @@
 {
   "name": "react-attach-ref-compat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Monkey-patch React 0.13's ref behavior to match React 15's behavior",
   "main": "index.js",
   "scripts": {

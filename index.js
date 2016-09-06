@@ -15,4 +15,7 @@ ReactCompositeComponent.Mixin.attachRef = function(ref, component) {
   }
 
   refs[ref] = element;
+
+  // consumers might not realize ref is a DOM element and call getDOMNode()
+  element.getDOMNode = function() { return element; }
 };
